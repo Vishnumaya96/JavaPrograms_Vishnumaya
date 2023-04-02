@@ -12,11 +12,11 @@ public class DuplicateCharsinaString {
 		
 		System.out.println("Duplicate characters are ");
 		int count=0;
-		char[] strArray=str1.toCharArray();
+		
 		for(int i=0;i<str1.length();i++) {
 			for(int j=i+1;j<str1.length();j++) {
-				if(strArray[i]==strArray[j]) {
-					System.out.println(strArray[i]);
+				if(str1.charAt(i)==str1.charAt(j)) {
+					System.out.println(str1.charAt(i));
 					count++;
 					break;
 				}
